@@ -1,0 +1,25 @@
+body {
+	background-color: #004060;
+}
+
+.navigation-pill-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.pill {
+  display: block;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 30px;
+  background-color: #f8f9fa;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.pill:hover {
+  background-color: #e9ecef;
+}
