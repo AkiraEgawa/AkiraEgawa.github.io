@@ -5,4 +5,16 @@ body {
 table {
 	margin-left: auto;
 	margin-right: auto;
+	table-layout:fixed;
+}
+
+th, td {
+	width: 20vw;
+	overflow: hidden;
+}
+
+#nav-bar {
+	font-size: 4vw;
+	color: black:
+	text-decoration: underline;
 }
