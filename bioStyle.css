@@ -2,24 +2,29 @@ body {
 	background-color: #004060;
 }
 
-.navigation-pill-list {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 20px;
-}
+#nav-bar {
+		position: fixed;
+		left: 0;
+		z-index: 100;
+	}
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
 
-.pill {
-  display: block;
-  padding: 10px 15px;
-  margin-right: 10px;
-  border-radius: 30px;
-  background-color: #f8f9fa;
-  color: #333;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.pill:hover {
-  background-color: #e9ecef;
-}
+	li {
+		float: left;
+	}
+	
+	li a {
+		display: block;
+		padding: 1vw;
+		background-color: gray;
+	}
+	
+	li a:hover {
+		background-color:darkgray;
+	}
