@@ -24,8 +24,15 @@ a {
 	color: black;
 }
 
-a:visited,
-a:hover,
+a:visited {
+	color: black;
+}
+a:hover{
+	color: black;
+}
 a:focus {
-  color: black;
+	color: black;
+}
+a:active{
+	color: black;
 }
