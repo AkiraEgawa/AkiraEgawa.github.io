@@ -2,22 +2,7 @@ body {
 	background-color: #004060;
 }
 
-#nav-bar {
-		position: fixed;
-		left: 50%;
-		z-index: 100;
-	}
-	
-	ul {
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-		overflow: hidden;
-	}
-
-
-	
-	li a {
-		display: block;
-		padding: 6.6vw;
-	}
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
