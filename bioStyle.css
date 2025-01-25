@@ -17,4 +17,15 @@ th, td {
 	font-size: 4vw;
 	color: black:
 	text-decoration: underline;
+	text-align: center;
+}
+
+a {
+	color: black;
+}
+
+a:visited,
+a:hover,
+a:focus {
+  color: black;
 }
