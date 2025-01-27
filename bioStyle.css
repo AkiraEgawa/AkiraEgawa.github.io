@@ -1,0 +1,54 @@
+body {
+	background-color: #004060;
+	text-align: center;
+	font-family: 'Gideon Roman';font-size: 2.43vw;
+	color: white;
+}
+
+h1 {
+	font-family: 'Inknut Antiqua';font-size: 3.47vw;
+}
+
+h2 {
+	font-family: 'Inter';font-size: 3.47vw;
+}
+
+table {
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+	table-layout:fixed;
+}
+
+th, td {
+	width = 60vw;
+}
+
+.nav-content {
+	width: 20vw;
+	overflow: hidden;
+}
+
+#nav-bar {
+	font-size: 4vw;
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+a:hover{
+	color: black;
+}
+a:focus {
+	color: black;
+}
+a:active{
+	color: black;
+}
