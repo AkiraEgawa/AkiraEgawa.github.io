@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charse = "UFT-8">
+	<meta charset = "UFT-8">
 	<meta name = "viewport" content = "width = device-width, initial scale = 1.0">
-	<title>About Me</title>
+	<link href='https://fonts.googleapis.com/css?family=Inknut Antiqua' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Gideon Roman' rel='stylesheet'>
 	<link rel="stylesheet" href="bioStyle.css">
+	<title>About Me</title>
 </head>
 <body>
 	<!--Remember to center the table-->
 	<!--The navigation bar-->
-	<div class = "navBar">
-	<table style = "width=60%">
+	
+	<table id="nav-bar">
 		<tr>
-			<td>About Me</td>
-			<td>Hobbies</td>
-			<td>Resume</td>
+			<td class = "nav-content"><a href="#">About Me</a></td>
+			<td class = "nav-content"><a href="#">Hobbies</a></td>
+			<td class = "nav-content"><a href="#">Resume</a></td>
 		</tr>
 	</table>
-	</div>
+
 	
-	<table style="width=60%">
+	<table><tr><td>
 		<br>
 		
 		<h1>Lucian Chen</h1><br>
 		
 		<!--Pictures go HERE-->
 		
-		<img src="bioImage/GithubLogo.png" alt="Picture of Github Logo with link to my repo" style="width:10.8vw;height:10.8vw;">
-		<img src="bioImage/LinkedInLogo.png" alt="LinkedIn Logo with link to my LinkedIn" style="width:20.5vw;height:20.5vw;">
-		
+		<img src="bioImage/GithubLogo.png" alt="Picture of Github Logo with link to my repo" 
+		style="width:10.8vw;height:10.8vw; float: left;">
+		<img src="bioImage/LinkedInLogo.png" alt="LinkedIn Logo with link to my LinkedIn" 
+		style="width:10.8vw;height:10.8vw; float: right;">
+		<br><br><br><br><br>
 		<h2>About Me</h2><br>
 		
 		<p>
@@ -55,6 +60,6 @@
 		customers
 		</p><br>
 		
-	</table>
+	</td></tr></table>
 </body>
 </html>
