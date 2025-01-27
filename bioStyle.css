@@ -2,6 +2,7 @@ body {
 	background-color: #004060;
 	text-align: center;
 	font-family: 'Gideon Roman';font-size: 2.43vw;
+	color: white;
 }
 
 h1 {
@@ -20,6 +21,10 @@ table {
 }
 
 th, td {
+	width = 60vw;
+}
+
+.nav-content {
 	width: 20vw;
 	overflow: hidden;
 }
