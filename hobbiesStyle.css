@@ -1,12 +1,12 @@
 body {
 	background-color: #004060;
-	text-align: center;
 	font-family: 'Gideon Roman';font-size: 2.43vw;
 	color: white;
 }
 
 h1 {
 	font-family: 'Inknut Antiqua';font-size: 3.47vw;
+	text-align: center;
 }
 
 h2 {
@@ -30,8 +30,7 @@ th, td {
 }
 
 .imgCent {
-	margin-left: auto;
-	margin-right: auto;
+	text-align: center;
 }
 
 #nav-bar {
@@ -39,6 +38,10 @@ th, td {
 	color: black;
 	text-decoration: underline;
 	text-align: center;
+}
+
+ul {
+	text-align: left;
 }
 
 li {
