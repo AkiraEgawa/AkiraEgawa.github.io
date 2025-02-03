@@ -30,7 +30,9 @@ th, td {
 }
 
 .imgCent {
-	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #nav-bar {
@@ -39,17 +41,6 @@ th, td {
 	text-decoration: underline;
 	text-align: center;
 }
-
-ul {
-	text-align: left;
-}
-
-li {
-    display: inline-block;
-    text-align: left;
-    margin-left: 20vw;
-}
-
 
 a {
 	color: black;
