@@ -29,12 +29,24 @@ th, td {
 	overflow: hidden;
 }
 
+.imgCent {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #nav-bar {
 	font-size: 4vw;
 	color: black;
 	text-decoration: underline;
 	text-align: center;
 }
+
+li {
+    display: inline-block;
+    text-align: left;
+    margin-left: 20vw;
+}
+
 
 a {
 	color: black;
