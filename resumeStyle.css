@@ -1,0 +1,73 @@
+body {
+	background-color: #004060;
+	font-family: 'Gideon Roman';font-size: 2.43vw;
+	color: white;
+}
+
+h1 {
+	font-family: 'Inknut Antiqua';font-size: 3.47vw;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Inter';font-size: 3.47vw;
+}
+
+table {
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+	table-layout:fixed;
+}
+
+th, td {
+	width = 60vw;
+}
+
+li {
+	width:100%;
+	text-align: left;
+}
+
+.nav-content {
+	width: 20vw;
+	overflow: hidden;
+}
+
+#nav-bar {
+	font-size: 4vw;
+	color: black;
+	text-decoration: underline;
+	text-align: center;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+a:hover{
+	color: black;
+}
+a:focus {
+	color: black;
+}
+a:active{
+	color: black;
+}
+
+#whiteOutline {
+	background-color: rgba(255, 255, 255, 1) !important;
+	color: #fff;
+	padding-left:   0.5vw;
+	padding-right:  0.5vw;
+	padding-top:    0vw;
+	padding-bottom: 0vw;
+	border-radius: 1vw;
+}
+
+.white{
+	color: white;
+}
