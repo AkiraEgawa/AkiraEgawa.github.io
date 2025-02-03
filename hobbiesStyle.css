@@ -73,3 +73,20 @@ a:active{
 	padding-bottom: 0vw;
 	border-radius: 1vw;
 }
+
+.white a {
+	color: white;
+}
+
+.white a:visited {
+	color: white;
+}
+.white a:hover{
+	color: white;
+}
+.white a:focus {
+	color: white;
+}
+.white a:active{
+	color: white;
+}
