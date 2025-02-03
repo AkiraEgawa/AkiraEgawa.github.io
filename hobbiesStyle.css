@@ -24,6 +24,11 @@ th, td {
 	width = 60vw;
 }
 
+li {
+	display: block;
+	text-align: left;
+}
+
 .nav-content {
 	width: 20vw;
 	overflow: hidden;
